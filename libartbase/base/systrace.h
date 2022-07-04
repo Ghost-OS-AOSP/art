@@ -47,8 +47,6 @@ inline void ATraceBegin(const char* name) {
 }
 
 inline void ATraceEnd() {
-  (void)name;
-  (void)value;
 #ifndef NDEBUG
   PaletteTraceEnd();
 #endif
